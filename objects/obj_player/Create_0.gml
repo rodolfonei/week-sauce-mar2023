@@ -5,7 +5,6 @@
 event_inherited();
 // Variables
 moveSpeed = 1.5;
-lastDir = 0;
 jumpSpeed = 10;
 
 

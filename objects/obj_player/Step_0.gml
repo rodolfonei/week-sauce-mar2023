@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Inherit the parent event
+event_inherited();
+
 if (grounded) {
-	show_debug_message(x == xprevious && y == yprevious);
 	if (x == xprevious && y == yprevious) {
 		sprite_index = spr_player_idle;
 	} else {
@@ -11,6 +13,5 @@ if (grounded) {
 	
 }
 
-// Inherit the parent event
-event_inherited();
+
 

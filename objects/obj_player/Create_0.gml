@@ -4,8 +4,8 @@
 
 event_inherited();
 // Variables
-moveSpeed = 1.5;
-jumpSpeed = 10;
+moveSpeed = 1;
+jumpSpeed = 9.5;
 
 
 

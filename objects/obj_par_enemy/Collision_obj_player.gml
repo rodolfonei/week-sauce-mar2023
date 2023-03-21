@@ -3,6 +3,7 @@
 
 with (other) {
 	instance_destroy();
+	audio_play_sound(snd_player_death, 1, 0);
 }
 
 instance_destroy();

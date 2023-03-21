@@ -1,12 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-with (other) {
-	instance_destroy();
+
+score = 0;
+
+if (room == rm_main) {
+	alarm[0] = 10;
 }
-
-instance_destroy();
-score += 10;
-
 
 
 

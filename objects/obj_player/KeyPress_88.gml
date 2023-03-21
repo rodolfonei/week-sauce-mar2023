@@ -9,7 +9,7 @@ if (obj_player.image_xscale == -1) {
 }
 
 inst.direction = playerDir;
-
+audio_play_sound(snd_player_shoot, 1, 0);
 
 
 
